@@ -1,0 +1,74 @@
+body {
+    background-image: url(bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    padding:50px 50px 50px 50px ;
+    display: block;
+    justify-content: center;
+
+
+}
+.h1{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.footer {
+    display: flex;
+    border-radius: 50px;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.content {
+    gap: 40px;
+    margin-top: 50px;
+
+}
+
+.middle {
+    display: block;
+}
+
+.text {
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+
+}
+
+.desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.text desc{
+    justify-content: center;
+}
